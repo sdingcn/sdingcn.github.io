@@ -1,0 +1,15 @@
+h1 {
+  text-align: center;
+}
+
+html {
+  background-color: #6DE0FC;
+}
+
+body {
+  width: 85vw;
+  margin: 5vh auto;
+  border: 3px solid black;
+  padding: 3vh 3vw 3vh 3vw;
+  background-color: #FFFFFF;
+}
