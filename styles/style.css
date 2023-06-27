@@ -1,9 +1,6 @@
-h1 {
-  text-align: center;
-}
-
 html {
-  background-color: #6DE0FC;
+  font-family: sans-serif;
+  background-color: #66FFFF;
 }
 
 body {
@@ -12,4 +9,19 @@ body {
   border: 3px solid black;
   padding: 3vh 3vw 3vh 3vw;
   background-color: #FFFFFF;
+}
+
+h1 {
+  text-align: center;
+}
+
+a {
+  padding: 2px 3px 2px 3px;
+  border: 1px solid black;
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  background-color: #66FFFF;
 }
