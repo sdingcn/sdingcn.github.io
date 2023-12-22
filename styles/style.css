@@ -1,25 +1,32 @@
-html {
-  font-family: sans-serif;
-  background-color: #AAFFFF;
-}
-
 body {
-  width: 85vw;
-  margin: 5vh auto;
-  border: 2px solid black;
-  padding: 3vh 3vw 3vh 3vw;
-  background-color: #FFFFFF;
+  font-family: sans-serif;
+  padding-top: 2em;
+  padding-left: 2vw;
 }
 
-h1 {
+.container {
+  display: block;
+}
+
+#left {
+  display: inline-block;
+  height: 12em;
+  vertical-align: top;
   text-align: center;
+  padding-left: 2vw;
+  padding-right: 2vw;
 }
 
-a {
-  padding: 2px 3px 2px 3px;
-  color: black;
+#right {
+  display: inline-block;
+  height: 12em;
+  vertical-align: top;
 }
 
-a:hover {
-  background-color: #AAFFFF;
+#camera {
+  border: solid 2px;
+  border-color: purple;
+  vertical-align: top;
+  max-width: 100%;
+  max-height: 100%;
 }
